@@ -13,6 +13,7 @@ import sportstar.library.LoopViewPagerLayout;
 
 /**
  * LoopPagerAdapterWrapper
+ *
  */
 public class LoopPagerAdapterWrapper extends PagerAdapter {
     private Context context;
