@@ -33,6 +33,7 @@ import sportstar.library.utils.Tools;
 
 /**
  * LoopViewPagerLayout
+ *
  */
 public class LoopViewPagerLayout extends RelativeLayout implements View.OnTouchListener {
     private FrameLayout indicatorFrameLayout;
