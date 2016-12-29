@@ -12,6 +12,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.view.animation.AccelerateInterpolator;
+import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -165,7 +166,7 @@ public class LoopViewPagerLayout extends RelativeLayout implements View.OnTouchL
         try {
             Field mField = ViewPager.class.getDeclaredField("mScroller");
             mField.setAccessible(true);
-            LoopScroller mScroller = new LoopScroller(context, new AccelerateInterpolator());
+//            LoopScroller mScroller = new LoopScroller(context, new AccelerateInterpolator());
 //            LoopScroller mScroller = new LoopScroller(context, new AnticipateInterpolator());
 //            LoopScroller mScroller = new LoopScroller(context, new PathInterpolator());
 //            LoopScroller mScroller = new LoopScroller(context, new BounceInterpolator());
@@ -173,7 +174,7 @@ public class LoopViewPagerLayout extends RelativeLayout implements View.OnTouchL
 //            LoopScroller mScroller = new LoopScroller(context, new AnticipateOvershootInterpolator());
 //            LoopScroller mScroller = new LoopScroller(context, new LinearInterpolator());
 //            LoopScroller mScroller = new LoopScroller(context, new AccelerateInterpolator());
-//            LoopScroller mScroller = new LoopScroller(context, new DecelerateInterpolator());
+            LoopScroller mScroller = new LoopScroller(context, new DecelerateInterpolator());
 //            LoopScroller mScroller = new LoopScroller(context, new CycleInterpolator(20));
             //可以用setDuration的方式调整速率
             mScroller.setmDuration(loop_duration);
