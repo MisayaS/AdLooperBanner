@@ -4,11 +4,10 @@ import android.util.Log;
 
 /**
  * Print Log
- *
  */
 public class L {
-    public static boolean deBug = true;
-    public static String TAG = "Edwin";
+    public static boolean deBug = false;
+    public static String TAG = "yorki";
 
     public static void e(String msg) {
         if (deBug)
