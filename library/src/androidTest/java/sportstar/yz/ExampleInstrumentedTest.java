@@ -1,4 +1,4 @@
-package sportstar.library;
+package sportstar.yz;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

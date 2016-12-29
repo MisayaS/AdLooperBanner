@@ -1,4 +1,4 @@
-package sportstar.library;
+package com.github.yz;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -11,7 +11,6 @@ import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewTreeObserver;
-import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
@@ -19,19 +18,17 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.github.yz.R;
+import com.github.yz.adapter.LoopPagerAdapterWrapper;
+import com.github.yz.animate.DepthPageTransformer;
+import com.github.yz.animate.ZoomOutPageTransformer;
+import com.github.yz.entity.IndicatorLocation;
+import com.github.yz.entity.LoopStyle;
+import com.github.yz.scroller.LoopScroller;
+import com.github.yz.utils.L;
+import com.github.yz.utils.Tools;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
-
-import sportstar.library.adapter.LoopPagerAdapterWrapper;
-import sportstar.library.animate.DepthPageTransformer;
-import sportstar.library.animate.ZoomOutPageTransformer;
-import sportstar.library.entity.IndicatorLocation;
-import sportstar.library.entity.LoopStyle;
-import sportstar.library.scroller.LoopScroller;
-import sportstar.library.utils.L;
-import sportstar.library.utils.Tools;
 
 
 /**

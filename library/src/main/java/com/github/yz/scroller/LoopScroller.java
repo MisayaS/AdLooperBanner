@@ -1,4 +1,4 @@
-package sportstar.library.scroller;
+package com.github.yz.scroller;
 
 import android.content.Context;
 import android.view.animation.Interpolator;

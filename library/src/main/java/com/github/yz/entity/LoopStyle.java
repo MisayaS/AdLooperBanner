@@ -1,4 +1,4 @@
-package sportstar.library.entity;
+package com.github.yz.entity;
 
 /**
  * Loop style

@@ -1,4 +1,4 @@
-package sportstar.library.adapter;
+package com.github.yz.adapter;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
@@ -6,9 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import java.util.ArrayList;
+import com.github.yz.LoopViewPagerLayout;
 
-import sportstar.library.LoopViewPagerLayout;
+import java.util.ArrayList;
 
 
 /**

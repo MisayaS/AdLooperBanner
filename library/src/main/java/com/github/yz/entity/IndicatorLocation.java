@@ -1,4 +1,4 @@
-package sportstar.library.entity;
+package com.github.yz.entity;
 
 /**
  * 指示器位置

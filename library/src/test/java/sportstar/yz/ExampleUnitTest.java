@@ -1,4 +1,4 @@
-package sportstar.library;
+package sportstar.yz;
 
 import org.junit.Test;
 

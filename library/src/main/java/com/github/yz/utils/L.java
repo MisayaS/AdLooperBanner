@@ -1,4 +1,4 @@
-package sportstar.library.utils;
+package com.github.yz.utils;
 
 import android.util.Log;
 

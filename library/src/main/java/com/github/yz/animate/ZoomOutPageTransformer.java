@@ -1,4 +1,4 @@
-package sportstar.library.animate;
+package com.github.yz.animate;
 
 import android.annotation.SuppressLint;
 import android.support.v4.view.ViewPager;
